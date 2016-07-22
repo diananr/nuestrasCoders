@@ -1,0 +1,47 @@
+.linea{
+	width: 140px;
+	border: 2px solid black;
+}
+.fila{
+	display: inline-block;
+}
+.primera, .segunda, .tercera, .cuarta, .quinta, .sexta{
+	width: 200px;
+	height: 200px;
+	background-position: 200px 200px;
+	margin:10px;
+	display: inline-block;
+	position: relative;
+}
+.primera{
+	background-image: url("../img/profile-1.png");
+}
+.segunda{
+	background-image: url("../img/profile-2.png");
+}
+.tercera{
+	background-image: url("../img/profile-3.png");
+}
+.cuarta{
+	background-image: url("../img/profile-4.png");
+}
+.quinta{
+	background-image: url("../img/profile-5.png");
+}
+.sexta{
+	background-image: url("../img/profile-6.png");
+}
+.nombre{
+	position: absolute;
+	color:white;
+	bottom: 0;
+	right: 0;
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+}
